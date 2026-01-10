@@ -46,7 +46,7 @@
 ### ⭐ GitHub 原始订阅地址
 
 ```
-https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
+[https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt](https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt)
 ```
 
 ### 🚀 GitHub 加速订阅地址（推荐）
@@ -54,7 +54,7 @@ https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
 适用于无法直接访问 `githubusercontent.com` 的地区：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
+[https://ghfast.top/https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt](https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt)
 ```
 
 > 💡 建议优先使用 **加速地址**，以提高订阅获取成功率。
