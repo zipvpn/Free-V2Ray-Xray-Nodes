@@ -1,19 +1,17 @@
-# 🚀 免费 Xray / V2Ray 节点订阅（持续更新）
+# 🚀 免费高可用 Xray / V2Ray 节点订阅（持续更新）
 
 ![update](https://img.shields.io/badge/Update-Every%203%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
 ![status](https://img.shields.io/badge/Status-Auto%20Maintained-success)
 
-> 🕒 **最近更新时间：2026-01-10 21:43:38**  
+> 🕒 **最近更新（美国华盛顿时间）：2026-01-10 21:43:38**  
 > 🔄 **自动更新频率：每 3 小时一次**
 
 ---
 
 ## 📌 项目简介
 
-本项目用于**自动抓取、整合并测试**互联网上公开可用的代理节点资源，生成可直接使用的 **V2Ray / Xray 订阅地址**。
-
-节点来源均为公开渠道，系统会在合并前进行基础连通性检测，仅保留当前可用节点，适合：
+本项目**自动抓取**互联网上公开的节点资源，再进行**连通性测试**后生成 **V2Ray / Xray 订阅地址**，适合：
 
 * 🧪 协议学习与测试
 * 📚 查阅资料、技术研究
@@ -21,7 +19,7 @@
 
 ---
 
-## 🌐 官方网站与维护说明
+## 🌐 维护说明
 
 * 🏠 **官方网站**：[https://www.zipvpn.net](https://www.zipvpn.net)
 * 🛠️ **项目维护方**：ZipVPN
