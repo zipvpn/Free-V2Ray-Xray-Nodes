@@ -43,13 +43,13 @@
 
 ## 🔗 订阅地址
 
-### ⭐ GitHub 原始订阅地址
+### ⭐ GitHub 订阅地址
 
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 GitHub 加速订阅地址（推荐）
+### 🚀 GitHub 加速订阅地址
 
 适用于无法直接访问 `githubusercontent.com` 的地区：
 
@@ -68,11 +68,13 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 3. 粘贴上述任意一个订阅地址
 4. 更新订阅并选择节点即可使用
 
-### 📱 常见客户端示例
+### 📱 推荐客户端
 
 * 📌 **ZipVPN（Android + Windows）**
 * 📌 **V2RayNG（Android）**
 * 📌 **V2RayN（Windows）**
+* 📌 **V2RayU（MacOS）**
+* 📌 **Shadowrocket（IOS）**
 * 📌 其他兼容 V2Ray / Xray 的客户端
 
 ---
