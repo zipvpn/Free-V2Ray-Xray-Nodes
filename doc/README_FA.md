@@ -12,7 +12,7 @@
 [![हिन्दी](https://img.shields.io/badge/भाषा-हिन्दी-orange)](README_HI.md)
 [![فارسی](https://img.shields.io/badge/زبان-فارسی-purple)](README_FA.md)
 
-> 🕒 **آخرین به‌روزرسانی (زمان واشنگتن آمریکا): 2026-01-11 10:44:11**  
+> 🕒 **آخرین به‌روزرسانی (زمان تهران): ‎2026-01-11 19:14:11‎**  
 > 🔄 **فرکانس به‌روزرسانی خودکار: هر ۳ ساعت**
 
 ---
@@ -50,7 +50,6 @@
 ## 🔗 لینک‌های اشتراک
 
 ### ⭐ لینک اشتراک GitHub
-
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
@@ -58,7 +57,6 @@ https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/f
 ### 🚀 لینک اشتراک تسریع‌شده GitHub
 
 برای مناطقی که نمی‌توانند مستقیماً به `githubusercontent.com` دسترسی داشته باشند:
-
 ```
 https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
