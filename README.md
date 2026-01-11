@@ -1,4 +1,4 @@
-# 🚀 Free High Availability Xray / V2Ray Node Subscription
+# 🚀 Free High Availability Xray / V2Ray Node
 
 ![update](https://img.shields.io/badge/Update-Every%203%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
