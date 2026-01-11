@@ -4,7 +4,7 @@
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
 ![status](https://img.shields.io/badge/Status-Auto%20Maintained-success)
 
-> 🕒 **最近更新（美国华盛顿时间）：2026-01-11 08:19:59**  
+> 🕒 **最近更新（美国华盛顿时间）：2026-01-11 09:42:12**  
 > 🔄 **自动更新频率：每 3 小时一次**
 
 ---
