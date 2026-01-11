@@ -4,13 +4,13 @@
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
 ![status](https://img.shields.io/badge/Status-Auto%20Maintained-success)
 
-[![English](https://img.shields.io/badge/Language-English-blue)](README.md)
-[![简体中文](https://img.shields.io/badge/语言-简体中文-red)](doc/README_ZH.md)
-[![Русский](https://img.shields.io/badge/Язык-Русский-green)](doc/README_RU.md)
-[![Português](https://img.shields.io/badge/Idioma-Português-yellow)](doc/README_PT.md)
-[![Español](https://img.shields.io/badge/Idioma-Español-purple)](doc/README_ES.md)
-[![हिन्दी](https://img.shields.io/badge/भाषा-हिन्दी-orange)](README_HI.md)
-[![فارسی](https://img.shields.io/badge/زبان-فارسی-purple)](README_FA.md)
+[![English](https://img.shields.io/badge/Language-English-blue)](./README.md)
+[![简体中文](https://img.shields.io/badge/语言-简体中文-red)](./doc/README_ZH.md)
+[![Русский](https://img.shields.io/badge/Язык-Русский-green)](./doc/README_RU.md)
+[![Português](https://img.shields.io/badge/Idioma-Português-yellow)](./doc/README_PT.md)
+[![Español](https://img.shields.io/badge/Idioma-Español-purple)](./doc/README_ES.md)
+[![हिन्दी](https://img.shields.io/badge/भाषा-हिन्दी-orange)](./doc/README_HI.md)
+[![فارسی](https://img.shields.io/badge/زبان-فارسی-purple)](./doc/README_FA.md)
 
 > 🕒 **最近更新（美国华盛顿时间）：2026-01-11 10:44:11**  
 > 🔄 **自动更新频率：每 3 小时一次**
