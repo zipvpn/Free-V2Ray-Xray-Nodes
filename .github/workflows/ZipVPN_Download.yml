@@ -1,0 +1,78 @@
+name: ZipVPN App Download
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '1.9.1'
+        required: true
+        default: '1.9.1'
+
+permissions:
+  contents: write
+
+env:
+  APP_NAME_PREFIX: "ZipVPN v"
+  TEMP_DIR: "temp_downloads"
+
+jobs:
+  download-parallel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Parallel Download
+        shell: bash
+        run: |
+          # Enable fail-fast mode to ensure the task fails if any command errors out
+          set -e
+
+          mkdir -p "$TEMP_DIR"
+
+          URL_LIST=(
+            ""
+          )
+          
+          MAX_JOBS=5  # Set the maximum number of concurrent downloads
+
+          echo "🚀 Starting concurrent downloads. Max jobs: $MAX_JOBS"
+          
+          printf "%s\0" "${URL_LIST[@]}" | xargs -0 -n 1 -P "$MAX_JOBS" \
+            wget -nv --content-disposition \
+            -P "$TEMP_DIR" \
+            --tries=3 \
+            --timeout=20 \
+            --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+          # Check download results
+          echo "📂 Temp directory file list:"
+          ls -lh "$TEMP_DIR"
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.inputs.version }}
+          name: ${{ env.APP_NAME_PREFIX }}${{ github.event.inputs.version }}
+          files: ${{ env.TEMP_DIR }}/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push changes
+        run: |
+          echo "🚚 Moving files from temp dir to root..."
+          mv "$TEMP_DIR"/* .
+          rmdir "$TEMP_DIR"
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add .
+          
+          if git diff --staged --quiet; then
+            echo "No new files downloaded or files are unchanged."
+          else
+            git commit -m "chore: download files for version ${{ github.event.inputs.version }} [skip ci]"
+            git push
+            echo "✅ All files pushed."
+          fi
