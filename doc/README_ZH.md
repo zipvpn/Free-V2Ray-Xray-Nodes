@@ -1,4 +1,4 @@
-# 🚀 免费高可用 Xray / V2Ray 节点订阅
+# 🚀 免费  SS / VMess / VLESS / Trojan 节点
 
 ![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
@@ -49,30 +49,48 @@
 
 ## 🔗 订阅地址
 
-### ⭐ GitHub 订阅地址
-
+### ✈️ Xray / V2Ray 订阅地址
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 GitHub 加速订阅地址
-
-适用于无法直接访问 `githubusercontent.com` 的地区：
-
+### 🐱 Clash 订阅地址
 ```
-https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_clash_nodes.yaml
 ```
 
-> 💡 建议优先使用 **加速地址**，以提高订阅获取成功率。
+### 🐦Loon 订阅地址
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_loon_nodes.conf
+```
+
+### ⚡ Quantumult X 订阅地址
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_quantumultx_nodes.txt
+```
+
+### 📦 sing-box 订阅地址
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_singbox_nodes.json
+```
+
+### 🏄 Surfboard 订阅地址
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surfboard_nodes.conf
+```
+
+### 🚀 Surge 订阅地址
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surge_nodes.conf
+```
 
 ---
 
 ## 🧩 使用方法
 
-1. 打开支持 **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge** 协议的客户端
-2. 找到「订阅 / Subscription」配置入口
-3. 粘贴上述任意一个订阅地址
-4. 更新订阅并选择节点即可使用
+1. 找到「订阅 / Subscription」配置入口
+2. 粘贴上述任意一个订阅地址
+3. 更新订阅并选择节点即可使用
 
 ### 📱 推荐客户端
 
