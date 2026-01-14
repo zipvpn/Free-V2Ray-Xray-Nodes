@@ -1,0 +1,69 @@
+name: Auto Convert Subscription
+
+# Trigger Conditions
+on:
+  push:
+    paths:
+      - 'free_v2ray_xray_nodes.txt' # Monitor changes to the specified file to automatically trigger the workflow
+      - 'convert.py' # Monitor changes to the conversion script to automatically trigger the workflow
+      - '.github/workflows/convert.yml' # Monitor changes to the workflow configuration to automatically trigger the workflow
+  workflow_dispatch: # Allow manual triggering of the workflow
+
+jobs:
+  convert_and_push:
+    runs-on: ubuntu-latest
+  
+    # Grant repository write permissions to allow committing generated subscription files
+    permissions:
+      contents: write
+      
+    steps:
+    # 1. Checkout repository code to obtain the latest files
+    - name: Checkout code
+      uses: actions/checkout@v4
+     
+    # 2. Set up Python environment to run the conversion script
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+        cache: 'pip' # Enable pip caching to speed up dependency installation
+   
+    # 3. Cache Subconverter components to avoid repeated downloads and prevent API rate limiting
+    - name: Cache Subconverter
+      id: cache-subconverter
+      uses: actions/cache@v3
+      with:
+        path: subconverter
+        key: ${{ runner.os }}-subconverter-cache-v1
+   
+    # 4. Install runtime dependencies to support network requests
+    - name: Install dependencies
+      run: |
+        pip install requests
+       
+    # 5. Execute the subscription conversion script to generate target format files
+    - name: Run Conversion Script
+      run: |
+        python convert.py
+       
+    # 6. Commit and push the generated subscription files to update the repository
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+      
+        # Add common subscription format files
+        git add *.yaml *.json *.conf *.txt || true
+      
+        # Check if there are any file changes
+        if git diff-index --quiet HEAD; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto update subscriptions [skip ci]"
+        
+          # Pull latest remote code to avoid push conflicts
+          git pull --rebase origin main || git pull --rebase origin master
+        
+          git push
+        fi
