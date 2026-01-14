@@ -1,6 +1,6 @@
 # 🚀 免费高可用 Xray / V2Ray 节点订阅
 
-![update](https://img.shields.io/badge/Update-Every%203%20Hours-brightgreen)
+![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
 ![status](https://img.shields.io/badge/Status-Auto%20Maintained-success)
 
