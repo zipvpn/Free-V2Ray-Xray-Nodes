@@ -1,4 +1,4 @@
-# 🚀 Бесплатная подписка на высокодоступные узлы Xray / V2Ray
+# 🚀 Бесплатные узлы SS / VMess / VLESS / Trojan
 
 ![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
@@ -49,30 +49,48 @@
 
 ## 🔗 Адреса подписки
 
-### ⭐ Адрес подписки GitHub
 
+### ✈️ Адрес подписки Xray / V2Ray
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 Ускоренный адрес подписки GitHub
-
-Для регионов, где прямой доступ к `githubusercontent.com` затруднён:
-
+### 🐱 Адрес подписки Clash
 ```
-https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_clash_nodes.yaml
 ```
 
-> 💡 Рекомендуется в первую очередь использовать **ускоренный адрес**, чтобы повысить вероятность успешного получения подписки.
+### 🐦 Адрес подписки Loon
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_loon_nodes.conf
+```
 
+### ⚡ Адрес подписки Quantumult X
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_quantumultx_nodes.txt
+```
+
+### 📦 Адрес подписки sing-box
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_singbox_nodes.json
+```
+
+### 🏄 Адрес подписки Surfboard
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surfboard_nodes.conf
+```
+
+### 🚀 Адрес подписки Surge
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surge_nodes.conf
+```
 ---
 
 ## 🧩 Инструкция по использованию
 
-1. Откройте клиент, поддерживающий протоколы **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge**
-2. Найдите раздел настройки «Подписка / Subscription»
-3. Вставьте любой из указанных выше адресов подписки
-4. Обновите подписку и выберите узел для использования
+1. Найдите раздел настройки «Подписка / Subscription»
+2. Вставьте любой из указанных выше адресов подписки
+3. Обновите подписку и выберите узел для использования
 
 ### 📱 Рекомендуемые клиенты
 
