@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 env:
-  APP_NAME_PREFIX: "ZipVPN v"
+  APP_NAME_PREFIX: "ZipVPN"
   TEMP_DIR: "temp_downloads"
 
 jobs:
@@ -29,16 +29,18 @@ jobs:
           set -e
 
           mkdir -p "$TEMP_DIR"
+          
+          VERSION="${{ github.event.inputs.version }}"
 
           URL_LIST=(
-            "https://www.zipvpn.net/download/ZipVPN-universal-v1.9.1.apk"
-            "https://www.zipvpn.net/download/ZipVPN-Setup-x64-v1.9.1.exe"
-            "https://www.zipvpn.net/download/ZipVPN-Windows-x64-v1.9.1.zip"
+            "https://www.zipvpn.net/download/ZipVPN-universal-v${VERSION}.apk"
+            "https://www.zipvpn.net/download/ZipVPN-Setup-x64-v${VERSION}.exe"
+            "https://www.zipvpn.net/download/ZipVPN-Windows-x64-v${VERSION}.zip"
           )
           
           MAX_JOBS=5  # Set the maximum number of concurrent downloads
 
-          echo "🚀 Starting concurrent downloads. Max jobs: $MAX_JOBS"
+          echo "🚀 Starting concurrent downloads for version v$VERSION. Max jobs: $MAX_JOBS"
           
           printf "%s\0" "${URL_LIST[@]}" | xargs -0 -n 1 -P "$MAX_JOBS" \
             wget -nv --content-disposition \
@@ -54,8 +56,8 @@ jobs:
       - name: Create Release and Upload Assets
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.event.inputs.version }}
-          name: ${{ env.APP_NAME_PREFIX }}${{ github.event.inputs.version }}
+          tag_name: v${{ github.event.inputs.version }}
+          name: ${{ env.APP_NAME_PREFIX }} v${{ github.event.inputs.version }}
           files: ${{ env.TEMP_DIR }}/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -74,7 +76,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new files downloaded or files are unchanged."
           else
-            git commit -m "chore: download files for version ${{ github.event.inputs.version }} [skip ci]"
+            git commit -m "chore: download files for version v${{ github.event.inputs.version }} [skip ci]"
             git push
             echo "✅ All files pushed."
           fi
