@@ -1,6 +1,6 @@
 # 🚀 Suscripción Gratuita a Nodos Xray / V2Ray de Alta Disponibilidad
 
-![update](https://img.shields.io/badge/Update-Every%203%20Hours-brightgreen)
+![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
 ![status](https://img.shields.io/badge/Status-Auto%20Maintained-success)
 
@@ -13,13 +13,13 @@
 [![فارسی](https://img.shields.io/badge/زبان-فارسی-purple)](README_FA.md)
 
 > 🕒 **Última actualización (hora de Madrid)：2026-01-14 10:55:50**  
-> 🔄 **Frecuencia de actualización automática: cada 3 horas**
+> 🔄 **Frecuencia de actualización automática: cada 2 horas**
 
 ---
 
 ## 📌 Descripción del Proyecto
 
-Este proyecto **recopila automáticamente** recursos de nodos públicos de internet, realiza **pruebas de conectividad** y genera **direcciones de suscripción V2Ray / Xray**. Adecuado para:
+Este proyecto **recopila automáticamente** recursos de nodos públicos de internet, realiza **pruebas de conectividad** y genera **direcciones de suscripción**. Adecuado para:
 
 * 🧪 Aprendizaje y pruebas de protocolos
 * 📚 Consulta de materiales e investigación técnica
@@ -43,7 +43,7 @@ El proyecto es mantenido a largo plazo por el equipo **ZipVPN**, principalmente 
 * ✅ **VLESS**
 * ✅ **Trojan**
 
-Compatibilidad completa con los principales clientes basados en el núcleo **V2Ray / Xray**.
+Compatibilidad completa con los principales clientes basados en el núcleo **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge**.
 
 ---
 
@@ -69,7 +69,7 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 
 ## 🧩 Instrucciones de Uso
 
-1. Abra un cliente que soporte los protocolos **V2Ray / Xray**
+1. Abra un cliente que soporte los protocolos **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge**
 2. Busque la entrada de configuración “Suscripción / Subscription”
 3. Pegue cualquiera de las direcciones de suscripción anteriores
 4. Actualice la suscripción y seleccione el nodo deseado
@@ -81,14 +81,14 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 * 📌 **V2RayN (Windows)**
 * 📌 **V2RayU (MacOS)**
 * 📌 **Shadowrocket (iOS)**
-* 📌 Otros clientes compatibles con V2Ray / Xray
+* 📌 Otros clientes compatibles con V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge
 
 ---
 
 ## 🔄 Mecanismo de Actualización
 
 * 🔍 Antes de actualizar se realiza una verificación básica de disponibilidad
-* ♻️ Generación y actualización automática del archivo de suscripción cada **3 horas**
+* ♻️ Generación y actualización automática del archivo de suscripción cada **2 horas**
 * 🧹 No se garantiza la estabilidad a largo plazo de los nodos
 
 ---
@@ -100,12 +100,6 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 * Todos los nodos provienen de recursos públicos de internet
 * El proyecto no ofrece ninguna garantía sobre la seguridad, privacidad o estabilidad de los nodos
 * Al utilizarlo, usted reconoce y acepta asumir todos los riesgos relacionados por su cuenta
-
----
-
-## 🔍 Palabras clave
-
-> nodos V2Ray gratuitos, nodos Xray gratuitos, suscripción V2Ray, suscripción Xray, nodos VMess, nodos VLESS, nodos Trojan, nodos Shadowsocks, Proxy Pool, nodos proxy gratuitos
 
 ---
 
