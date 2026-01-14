@@ -1,106 +1,119 @@
 name: Auto Convert Subscription
-
-# Trigger Conditions
+# Trigger Configuration
 on:
+  # Trigger the workflow whenever changes (push operations) are detected in the following files
   push:
     paths:
-      - 'free_v2ray_xray_nodes.txt' # Monitor changes to the specified file to automatically trigger the workflow
-      - 'convert.py' # Monitor changes to the conversion script to automatically trigger the workflow
-      - '.github/workflows/convert.yml' # Monitor changes to the workflow configuration to automatically trigger the workflow
-  workflow_dispatch: # Allow manual triggering of the workflow
-
+      - 'free_v2ray_xray_nodes.txt'
+ 
+  # Allow manual triggering from the Actions page
+  workflow_dispatch:
 jobs:
   convert_and_push:
     runs-on: ubuntu-latest
-  
-    # Grant repository write permissions to allow committing generated subscription files
     permissions:
-      contents: write
-      
+      contents: write # Allow reading and pushing code
+      actions: write # Allow managing and deleting workflow runs
     steps:
-    # 1. Checkout repository code to obtain the latest files
+    # --- Automatically delete old workflow runs ---
+    - name: Delete old workflow runs
+      continue-on-error: true
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        token: ${{ github.token }}
+        repository: ${{ github.repository }}
+        retain_days: 0
+        keep_minimum_runs: 0
+    # 1. Checkout code
     - name: Checkout code
       uses: actions/checkout@v4
-     
-    # 2. Set up Python environment to run the conversion script
+    # 2. Set up Python environment
     - name: Set up Python 3.10
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
-   
-    # 3. Cache Subconverter components to avoid repeated downloads and prevent API rate limiting
+    # 3. Cache Subconverter core (to avoid repeated downloads)
     - name: Cache Subconverter
       id: cache-subconverter
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: subconverter
-        key: ${{ runner.os }}-subconverter-cache-v1
-   
-    # 4. Install runtime dependencies to support network requests
+        key: ${{ runner.os }}-subconverter-v0.7.2
+    # 4. Install Python dependencies
     - name: Install dependencies
       run: |
         pip install requests
-       
-    # 5. Execute the subscription conversion script to generate target format files
+    # 5. Run conversion script
     - name: Run Conversion Script
       run: |
         python convert.py
-       
-    # 6. Commit and push the generated subscription files to update the repository
+    # --- Dynamically generate commit message and push ---
     - name: Commit and Push changes
       run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-      
-        # Add common subscription format files
+        # Configure Git user information
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+     
+        # Add all possibly generated subscription files
         git add *.yaml *.json *.conf *.txt || true
-      
-        # Get staged changed subscription files
+     
+        # Check if there are changes in the staging area; if none, skip commit
+        if git diff-index --quiet HEAD --; then
+          echo "No changes detected. Skipping commit."
+          exit 0
+        fi
+     
+        # Get the list of changed file names
         changed_files=$(git diff-index --cached --name-only HEAD)
-        
-        if [ -z "$changed_files" ]; then
-          echo "No changes to commit"
+       
+        # Define mapping from file names to display names
+        declare -A file_map
+        file_map["free_clash_nodes.yaml"]="Clash"
+        file_map["free_quantumultx_nodes.txt"]="Quantumult X"
+        file_map["free_surge_nodes.conf"]="Surge"
+        file_map["free_loon_nodes.conf"]="Loon"
+        file_map["free_surfboard_nodes.conf"]="Surfboard"
+        file_map["free_singbox_nodes.json"]="sing-box"
+       
+        # Iterate over changed files and collect corresponding client names
+        clients=()
+        for file in $changed_files; do
+          if [ -n "${file_map[$file]}" ]; then
+            clients+=("${file_map[$file]}")
+          fi
+        done
+       
+        # Build the client list portion of the commit message (e.g., "Clash, Loon, and Surge")
+        count=${#clients[@]}
+        client_list=""
+       
+        if [ $count -eq 0 ]; then
+          client_list="subscription files"
+        elif [ $count -eq 1 ]; then
+          client_list="${clients[0]} subscription nodes"
         else
-          # Mapping from filename to client name
-          declare -A file_to_client
-          file_to_client[free_clash_nodes.yaml]="Clash"
-          file_to_client[free_quantumultx_nodes.txt]="Quantumult X"
-          file_to_client[free_surge_nodes.conf]="Surge"
-          file_to_client[free_loon_nodes.conf]="Loon"
-          file_to_client[free_surfboard_nodes.conf]="Surfboard"
-          file_to_client[free_singbox_nodes.json]="sing-box"
-          
-          # Collect updated clients
-          updated_clients=()
-          for file in $changed_files; do
-            client="${file_to_client[$file]}"
-            if [ -n "$client" ]; then
-              updated_clients+=("$client")
+          # Concatenation logic to handle commas and "and"
+          for (( i=0; i<count; i++ )); do
+            if [ $i -eq 0 ]; then
+              client_list="${clients[$i]}"
+            elif [ $i -eq $((count-1)) ]; then
+              client_list="$client_list, and ${clients[$i]} subscription nodes"
+            else
+              client_list="$client_list, ${clients[$i]}"
             fi
           done
-          
-          if [ ${#updated_clients[@]} -eq 0 ]; then
-            client_list="subscription files"
-          elif [ ${#updated_clients[@]} -eq 1 ]; then
-            client_list="${updated_clients[0]} subscription nodes"
-          else
-            client_list="${updated_clients[0]}"
-            for ((i=1; i<${#updated_clients[@]}-1; i++)); do
-              client_list="${client_list}, ${updated_clients[$i]}"
-            done
-            client_list="${client_list}, and ${updated_clients[-1]} subscription nodes"
-          fi
-          
-          # Get current time in PST/PDT (America/Los_Angeles timezone)
-          TIME=$(TZ='America/Los_Angeles' date +"%Y-%m-%d %H:%M")
-          
-          # Final commit message (varies by which files actually changed)
-          message="Update ${client_list} - ${TIME} [skip ci]"
-          
-          git commit -m "$message"
-        
-          # Pull latest remote code to avoid push conflicts
-          git pull --rebase origin main || git pull --rebase origin master
-        
-          git push
         fi
+       
+        # Get current time
+        TIME=$(TZ='America/Los_Angeles' date +"%Y-%m-%d %H:%M")
+       
+        # Compose the final commit message
+        COMMIT_MSG="Update $client_list - $TIME"
+        echo "Generated Commit Message: $COMMIT_MSG"
+       
+        # Commit changes
+        git commit -m "$COMMIT_MSG"
+       
+        # Pull latest code (rebase) and push to prevent concurrent conflicts
+        git pull --rebase origin main
+        git push
