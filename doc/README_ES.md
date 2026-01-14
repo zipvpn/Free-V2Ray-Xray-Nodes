@@ -1,4 +1,4 @@
-# 🚀 Suscripción Gratuita a Nodos Xray / V2Ray de Alta Disponibilidad
+# 🚀 Nodos gratuitos SS / VMess / VLESS / Trojan
 
 ![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
@@ -49,30 +49,48 @@ Compatibilidad completa con los principales clientes basados en el núcleo **V2R
 
 ## 🔗 Direcciones de Suscripción
 
-### ⭐ Dirección de Suscripción GitHub
-
+### ✈️ Dirección de suscripción Xray / V2Ray
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 Dirección de Suscripción Acelerada GitHub
-
-Para regiones donde el acceso directo a `githubusercontent.com` es difícil:
-
+### 🐱 Dirección de suscripción Clash
 ```
-https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_clash_nodes.yaml
 ```
 
-> 💡 Se recomienda usar prioritariamente la **dirección acelerada** para mejorar la tasa de éxito al obtener la suscripción.
+### 🐦 Dirección de suscripción Loon
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_loon_nodes.conf
+```
+
+### ⚡ Dirección de suscripción Quantumult X
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_quantumultx_nodes.txt
+```
+
+### 📦 Dirección de suscripción sing-box
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_singbox_nodes.json
+```
+
+### 🏄 Dirección de suscripción Surfboard
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surfboard_nodes.conf
+```
+
+### 🚀 Dirección de suscripción Surge
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surge_nodes.conf
+```
 
 ---
 
 ## 🧩 Instrucciones de Uso
 
-1. Abra un cliente que soporte los protocolos **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge**
-2. Busque la entrada de configuración “Suscripción / Subscription”
-3. Pegue cualquiera de las direcciones de suscripción anteriores
-4. Actualice la suscripción y seleccione el nodo deseado
+1. Busque la entrada de configuración “Suscripción / Subscription”
+2. Pegue cualquiera de las direcciones de suscripción anteriores
+3. Actualice la suscripción y seleccione el nodo deseado
 
 ### 📱 Clientes Recomendados
 
