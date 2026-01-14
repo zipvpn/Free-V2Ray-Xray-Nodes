@@ -1,4 +1,4 @@
-# 🚀 मुफ्त उच्च उपलब्धता Xray / V2Ray नोड सब्सक्रिप्शन
+# 🚀 मुफ्त SS / VMess / VLESS / Trojan नोड्स
 
 ![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
@@ -49,30 +49,48 @@
 
 ## 🔗 सब्सक्रिप्शन लिंक
 
-### ⭐ GitHub सब्सक्रिप्शन लिंक
-
+### ✈️ Xray / V2Ray सब्सक्रिप्शन पता
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 GitHub त्वरित सब्सक्रिप्शन लिंक
-
-उन क्षेत्रों के लिए जहां `githubusercontent.com` सीधे एक्सेस नहीं किया जा सकता:
-
+### 🐱 Clash सब्सक्रिप्शन पता
 ```
-https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_clash_nodes.yaml
 ```
 
-> 💡 **त्वरित लिंक** को प्राथमिकता देने की सिफारिश की जाती है ताकि सब्सक्रिप्शन प्राप्ति सफलता दर बढ़े।
+### 🐦 Loon सब्सक्रिप्शन पता
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_loon_nodes.conf
+```
+
+### ⚡ Quantumult X सब्सक्रिप्शन पता
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_quantumultx_nodes.txt
+```
+
+### 📦 sing-box सब्सक्रिप्शन पता
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_singbox_nodes.json
+```
+
+### 🏄 Surfboard सब्सक्रिप्शन पता
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surfboard_nodes.conf
+```
+
+### 🚀 Surge सब्सक्रिप्शन पता
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surge_nodes.conf
+```
 
 ---
 
 ## 🧩 उपयोग विधि
 
-1. **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge** प्रोटोकॉल समर्थित क्लाइंट खोलें
-2. “Subscription” कॉन्फ़िगरेशन सेक्शन ढूंढें
-3. ऊपर दिए किसी भी सब्सक्रिप्शन लिंक को पेस्ट करें
-4. सब्सक्रिप्शन अपडेट करें और नोड चुनकर उपयोग शुरू करें
+1. “Subscription” कॉन्फ़िगरेशन सेक्शन ढूंढें
+2. ऊपर दिए किसी भी सब्सक्रिप्शन लिंक को पेस्ट करें
+3. सब्सक्रिप्शन अपडेट करें और नोड चुनकर उपयोग शुरू करें
 
 ### 📱 अनुशंसित क्लाइंट्स
 
