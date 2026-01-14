@@ -11,19 +11,19 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-url-latency-benchmark=♻️ 自动选择, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300
-static=🎥 NETFLIX, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080
+static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+url-latency-benchmark=♻️ 自动选择, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300
+static=🎥 NETFLIX, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068
 static=⛔️ 广告拦截, 🛑 全球拦截, 🎯 全球直连, 🔰 节点选择
 static=🚫 运营劫持, 🛑 全球拦截, 🎯 全球直连, 🔰 节点选择
-static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=🌏 国内媒体, 🎯 全球直连, 🔰 节点选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
-static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, ES-zipvpn.net-018, US-zipvpn.net-020, US-zipvpn.net-027, CA-zipvpn.net-039, ES-zipvpn.net-043, CN-zipvpn.net-072, NZ-zipvpn.net-073, HK-zipvpn.net-075, HK-zipvpn.net-077, JP-zipvpn.net-078, PH-zipvpn.net-080, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, ES-zipvpn.net-004, ES-zipvpn.net-028, US-zipvpn.net-029, US-zipvpn.net-034, CA-zipvpn.net-046, RU-zipvpn.net-065, NZ-zipvpn.net-068, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [server_remote]
 
@@ -50,17 +50,13 @@ http://127.0.0.1:25500/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0R
 [rewrite_remote]
 
 [server_local]
-trojan = 109.234.211.66:2087, password=trojan, over-tls=true, tls-host=store.timimi.dpdns.org, fast-open=false, tls-verification=true, tag=ES-zipvpn.net-018
-trojan = 205.185.115.223:19258, password=iWnFtzMiac, over-tls=true, tls-host=cloudflare.com, fast-open=false, tls-verification=true, tag=US-zipvpn.net-020
-trojan = d-4bed-b726-2c53a82e4925.664.qzz.io:443, password=0507fbcd-b983-43a7-8e1d-2c561960ad4f, over-tls=true, tls-host=d-4bED-B726-2C53a82E4925.664.Qzz.iO, fast-open=false, tls-verification=true, tag=US-zipvpn.net-027
-trojan = 38.96.254.102:18509, password=.ie4rghJuMkcf0oF, over-tls=true, tls-host=shoppingmall.electricbanana.click, fast-open=false, tls-verification=true, tag=CA-zipvpn.net-039
-trojan = 109.234.211.66:8443, password=trojan, over-tls=true, tls-host=store.timimi.dpdns.org, fast-open=false, tls-verification=true, tag=ES-zipvpn.net-043
-vmess = 183.236.51.36:59003, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, tag=CN-zipvpn.net-072
-trojan = 45.15.140.107:19106, password=tSk5LQoJr7F.WnRsUM4hT, over-tls=true, tls-host=binaryboots.algorithmblanket.click, fast-open=false, tls-verification=true, tag=NZ-zipvpn.net-073
-trojan = 58.152.53.219:443, password=BxceQaOe, over-tls=true, tls-host=t.me%2Fripaojiedian, fast-open=false, tls-verification=true, tag=HK-zipvpn.net-075
-vmess = sv2.wy888.us:443, method=chacha20-ietf-poly1305, password=cda69512-ad1b-4f85-b547-b1d545e7cc90, obfs=wss, obfs-host=sv2.wy888.us, obfs-uri=/vmess, fast-open=false, tls-verification=true, tag=HK-zipvpn.net-077
-trojan = 160.16.89.176:4006, password=61d8077bfb174e171b8283f155a555ad, over-tls=true, tls-host=www.nintendogames.net, fast-open=false, tls-verification=true, tag=JP-zipvpn.net-078
-trojan = 220.130.58.136:31102, password=b7aa4e87-d990-4f2d-8880-73b206953efc, over-tls=true, tls-host=green2.cdntencentmusic.com, fast-open=false, tls-verification=true, tag=PH-zipvpn.net-080
+trojan = 109.234.211.66:8443, password=trojan, over-tls=true, tls-host=store.timimi.dpdns.org, fast-open=false, tls-verification=true, tag=ES-zipvpn.net-004
+trojan = 109.234.211.66:2087, password=trojan, over-tls=true, tls-host=store.timimi.dpdns.org, fast-open=false, tls-verification=true, tag=ES-zipvpn.net-028
+trojan = 205.185.115.223:19258, password=iWnFtzMiac, over-tls=true, tls-host=cloudflare.com, fast-open=false, tls-verification=true, tag=US-zipvpn.net-029
+trojan = d-4bed-b726-2c53a82e4925.664.qzz.io:443, password=0507fbcd-b983-43a7-8e1d-2c561960ad4f, over-tls=true, tls-host=d-4bED-B726-2C53a82E4925.664.Qzz.iO, fast-open=false, tls-verification=true, tag=US-zipvpn.net-034
+trojan = 38.96.254.102:18509, password=.ie4rghJuMkcf0oF, over-tls=true, tls-host=shoppingmall.electricbanana.click, fast-open=false, tls-verification=true, tag=CA-zipvpn.net-046
+vmess = 130.49.213.103:26824, method=chacha20-ietf-poly1305, password=b2da9920-b0a7-4354-9e26-3833ab8d00d0, obfs=wss, obfs-host=imafake.locker, obfs-uri=/speedtest, fast-open=false, tls-verification=true, tag=RU-zipvpn.net-065
+trojan = 45.15.140.107:19106, password=tSk5LQoJr7F.WnRsUM4hT, over-tls=true, tls-host=binaryboots.algorithmblanket.click, fast-open=false, tls-verification=true, tag=NZ-zipvpn.net-068
 
 [filter_local]
 GEOIP,CN,🎯 全球直连
