@@ -1,6 +1,6 @@
 # 🚀 Free High Availability Xray / V2Ray Node
 
-![update](https://img.shields.io/badge/Update-Every%203%20Hours-brightgreen)
+![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
 ![status](https://img.shields.io/badge/Status-Auto%20Maintained-success)
 
@@ -13,13 +13,13 @@
 [![فارسی](https://img.shields.io/badge/زبان-فارسی-purple)](doc/README_FA.md)
 
 > 🕒 **Last Update (Washington D.C. Time, USA)：2026-01-14 04:55:50**  
-> 🔄 **Automatic Update Frequency: Every 3 Hours**
+> 🔄 **Automatic Update Frequency: Every 2 Hours**
 
 ---
 
 ## 📌 Project Introduction
 
-This project **automatically fetches** publicly available node resources from the internet, performs **connectivity tests**, and generates **V2Ray / Xray subscription links**. It is suitable for:
+This project **automatically fetches** publicly available node resources from the internet, performs **connectivity tests**, and generates **subscription links**. It is suitable for:
 
 * 🧪 Protocol learning and testing
 * 📚 Reference materials and technical research
@@ -43,7 +43,7 @@ This project is long-term maintained by the **ZipVPN** team, primarily for proto
 * ✅ **VLESS**
 * ✅ **Trojan**
 
-Fully compatible with mainstream **V2Ray / Xray** core clients.
+Fully compatible with mainstream **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge** core clients.
 
 ---
 
@@ -69,7 +69,7 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 
 ## 🧩 Usage Instructions
 
-1. Open a client that supports **V2Ray / Xray** protocols
+1. Open a client that supports **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge** protocols
 2. Locate the "Subscription" configuration section
 3. Paste any of the above subscription links
 4. Update the subscription and select a node to start using
@@ -81,14 +81,14 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 * 📌 **V2RayN (Windows)**
 * 📌 **V2RayU (MacOS)**
 * 📌 **Shadowrocket (iOS)**
-* 📌 Other clients compatible with V2Ray / Xray
+* 📌 Other clients compatible with V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge
 
 ---
 
 ## 🔄 Update Mechanism
 
 * 🔍 Basic availability checks performed before updating
-* ♻️ Automatically generate and update subscription file **every 3 hours**
+* ♻️ Automatically generate and update subscription file **every 2 hours**
 * 🧹 No guarantee of long-term node stability
 
 ---
@@ -100,12 +100,6 @@ https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Node
 * All nodes are sourced from publicly available internet resources
 * The project makes no guarantees regarding node security, privacy, or stability
 * By using this project, you acknowledge and agree to assume all related risks yourself
-
----
-
-## 🔍 Keywords
-
-> Free V2Ray nodes, Free Xray nodes, V2Ray subscription links, Xray subscription, VMess nodes, VLESS nodes, Trojan nodes, Shadowsocks nodes, Proxy Pool, Free proxy nodes
 
 ---
 
