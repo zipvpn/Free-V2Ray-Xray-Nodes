@@ -14,18 +14,13 @@ SOURCE_FILE = 'free_v2ray_xray_nodes.txt'
 
 # Define output files and their corresponding Subconverter target parameters
 OUTPUT_CONFIGS = {
-    'free_Clash_nodes.yaml': 'clash',
-    'free_QuantumultX_nodes.txt': 'quanx',
-    'free_Surge_nodes.conf': 'surge&ver=4',
-    'free_Loon_nodes.conf': 'loon',
-    'free_Surfboard_nodes.conf': 'surfboard',
-    'free_Singbox_nodes.json': 'singbox',
-    'free_V2ray_nodes.txt': 'v2ray',
-    'free_Mixed_nodes.txt': 'mixed',
+    'free_clash_nodes.yaml': 'clash',
+    'free_quantumultx_nodes.txt': 'quanx',
+    'free_surge_nodes.conf': 'surge&ver=4',
+    'free_loon_nodes.conf': 'loon',
+    'free_surfboard_nodes.conf': 'surfboard',
+    'free_singbox_nodes.json': 'singbox',
 }
-
-# Define the URL for the remote rule configuration file
-REMOTE_CONFIG = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"
 # ===========================================
 
 def get_latest_download_url():
@@ -108,13 +103,12 @@ def wait_for_port(port, timeout=10):
 
 def convert_task(task_args):
     # Execute a single subscription conversion task
-    filename, target_config, source_url, base_api, config_url = task_args
+    filename, target_config, source_url, base_api = task_args
   
     params = {
         "url": source_url,
-        "config": config_url,
         "target": target_config.split('&')[0],
-        "emoji": "true",
+        "emoji": "false",  # Disabled to remove flag emojis and keep output clean
         "list": "false",
         "tfo": "false",
         "scv": "false",
@@ -144,18 +138,13 @@ def convert_task(task_args):
 
 def main():
     sub_process = None
-    local_rule_file = "local_rule.ini"
   
     try:
         # Prepare Subconverter runtime environment
         download_and_extract()
        
-        # Pre-download remote rule file to avoid repeated requests during conversion
-        print(f"Pre-downloading rule configuration: {REMOTE_CONFIG}")
-        if not download_resource(REMOTE_CONFIG, local_rule_file):
-            raise Exception("Failed to download core rule file - cannot continue")
-           
-        # Start local file server for Subconverter to access source and rule files
+        # Start local file server for Subconverter to access source file
+        # (No rule file is downloaded or served — pure node output with default English templates)
         fs_thread = threading.Thread(target=start_local_file_server, daemon=True)
         fs_thread.start()
        
@@ -175,12 +164,11 @@ def main():
            
         # Prepare conversion parameters and execute tasks concurrently
         source_url = f"http://127.0.0.1:8000/{SOURCE_FILE}"
-        config_url = f"http://127.0.0.1:8000/{local_rule_file}"
         base_api = "http://127.0.0.1:25500/sub"
       
         tasks = []
         for filename, target_config in OUTPUT_CONFIGS.items():
-            tasks.append((filename, target_config, source_url, base_api, config_url))
+            tasks.append((filename, target_config, source_url, base_api))
            
         print(f"Starting concurrent conversion of {len(tasks)} tasks...")
         start_time = time.time()
@@ -210,11 +198,6 @@ def main():
         # Clean up temporary files
         if os.path.exists("sub.tar.gz"):
             os.remove("sub.tar.gz")
-        if os.path.exists(local_rule_file):
-            try:
-                os.remove(local_rule_file)
-            except:
-                pass
 
 if __name__ == "__main__":
     main()
