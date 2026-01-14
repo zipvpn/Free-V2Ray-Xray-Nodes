@@ -1,4 +1,4 @@
-# 🚀 Free High Availability Xray / V2Ray Node
+# 🚀 Free SS / VMess / VLESS / Trojan Nodes
 
 ![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
@@ -49,30 +49,48 @@ Fully compatible with mainstream **V2Ray, Xray, Clash, Loon, Quantumult X, sing-
 
 ## 🔗 Subscription Links
 
-### ⭐ GitHub Subscription Link
-
+### ✈️ Xray / V2Ray Subscription URL
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 GitHub Accelerated Subscription Link
-
-For regions unable to directly access `githubusercontent.com`:
-
+### 🐱 Clash Subscription URL
 ```
-https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_clash_nodes.yaml
 ```
 
-> 💡 It is recommended to prioritize the **accelerated link** to improve subscription retrieval success rate.
+### 🐦 Loon Subscription URL
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_loon_nodes.conf
+```
+
+### ⚡ Quantumult X Subscription URL
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_quantumultx_nodes.txt
+```
+
+### 📦 sing-box Subscription URL
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_singbox_nodes.json
+```
+
+### 🏄 Surfboard Subscription URL
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surfboard_nodes.conf
+```
+
+### 🚀 Surge Subscription URL
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surge_nodes.conf
+```
 
 ---
 
 ## 🧩 Usage Instructions
 
-1. Open a client that supports **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge** protocols
-2. Locate the "Subscription" configuration section
-3. Paste any of the above subscription links
-4. Update the subscription and select a node to start using
+1. Locate the "Subscription" configuration section
+2. Paste any of the above subscription links
+3. Update the subscription and select a node to start using
 
 ### 📱 Recommended Clients
 
