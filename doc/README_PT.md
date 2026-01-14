@@ -1,4 +1,4 @@
-# 🚀 Assinatura Gratuita de Nós Xray / V2Ray de Alta Disponibilidade
+# 🚀 Nós gratuitos SS / VMess / VLESS / Trojan
 
 ![update](https://img.shields.io/badge/Update-Every%202%20Hours-brightgreen)
 ![protocol](https://img.shields.io/badge/Protocol-SS%20%7C%20VMess%20%7C%20VLESS%20%7C%20Trojan-blue)
@@ -49,30 +49,48 @@ Total compatibilidade com os principais clientes baseados no núcleo **V2Ray, Xr
 
 ## 🔗 Links de Assinatura
 
-### ⭐ Link de Assinatura GitHub
-
+### ✈️ Endereço de subscrição Xray / V2Ray
 ```
 https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
 ```
 
-### 🚀 Link de Assinatura Acelerado GitHub
-
-Para regiões onde o acesso direto ao `githubusercontent.com` é difícil:
-
+### 🐱 Endereço de subscrição Clash
 ```
-https://ghfast.top/https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_v2ray_xray_nodes.txt
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_clash_nodes.yaml
 ```
 
-> 💡 Recomendamos priorizar o **link acelerado** para maior taxa de sucesso na obtenção da assinatura.
+### 🐦 Endereço de subscrição Loon
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_loon_nodes.conf
+```
+
+### ⚡ Endereço de subscrição Quantumult X
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_quantumultx_nodes.txt
+```
+
+### 📦 Endereço de subscrição sing-box
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_singbox_nodes.json
+```
+
+### 🏄 Endereço de subscrição Surfboard
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surfboard_nodes.conf
+```
+
+### 🚀 Endereço de subscrição Surge
+```
+https://raw.githubusercontent.com/zipvpn/Free-V2Ray-Xray-Nodes/refs/heads/main/free_surge_nodes.conf
+```
 
 ---
 
 ## 🧩 Como Usar
 
-1. Abra um cliente que suporte os protocolos **V2Ray, Xray, Clash, Loon, Quantumult X, sing-box, Surfboard, Surge**
-2. Encontre a entrada de configuração “Assinatura / Subscription”
-3. Cole um dos links de assinatura acima
-4. Atualize a assinatura e selecione o nó desejado
+1. Encontre a entrada de configuração “Assinatura / Subscription”
+2. Cole um dos links de assinatura acima
+3. Atualize a assinatura e selecione o nó desejado
 
 ### 📱 Clientes Recomendados
 
