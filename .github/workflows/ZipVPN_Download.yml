@@ -76,7 +76,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new files downloaded or files are unchanged."
           else
-            git commit -m "chore: download files for version v${{ github.event.inputs.version }} [skip ci]"
+            git commit -m "Update ${{ env.APP_NAME_PREFIX }} for version v${{ github.event.inputs.version }}"
             git push
             echo "✅ All files pushed."
           fi
