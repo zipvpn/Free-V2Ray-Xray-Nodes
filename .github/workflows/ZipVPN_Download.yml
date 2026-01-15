@@ -64,6 +64,9 @@ jobs:
 
       - name: Commit and Push changes
         run: |
+          echo "🧹 Cleaning up old version files..."
+          rm -f "${APP_NAME_PREFIX}"*.apk "${APP_NAME_PREFIX}"*.exe "${APP_NAME_PREFIX}"*.zip
+
           echo "🚚 Moving files from temp dir to root..."
           mv "$TEMP_DIR"/* .
           rmdir "$TEMP_DIR"
