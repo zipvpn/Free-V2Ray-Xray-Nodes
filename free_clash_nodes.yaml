@@ -5,59 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE-zipvpn.net-001, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: CN-zipvpn.net-009, server: pro-fw-nl1.bananenpannenkoekjes.com, port: 6033, type: trojan, password: 8jJVmFbM7qKnR3bSXX, sni: pro-fw-nl1.bananenpannenkoekjes.com, skip-cert-verify: false}
-  - {name: MY-zipvpn.net-027, server: 85.211.252.203, port: 16618, type: vmess, uuid: a436dc22-e2e4-4d0a-ae38-e86dcab039c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: b26eb8c48143c11db65be2203a3f2892.mobgslb.tbcache.com}}}
-  - {name: MY-zipvpn.net-028, server: 85.211.252.203, port: 16616, type: vmess, uuid: a436dc22-e2e4-4d0a-ae38-e86dcab039c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: b26eb8c48143c11db65be2203a3f2892.mobgslb.tbcache.com}}}
-  - {name: DE-zipvpn.net-031, server: frankfurt01.zgjok.com, port: 443, type: vmess, uuid: b71579b1-6593-426d-90ac-f002fa96ade1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: frankfurt01.zgjok.com, network: ws, ws-opts: {path: /, headers: {Host: frankfurt01.zgjok.com}}}
-  - {name: ES-zipvpn.net-071, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}}
-  - {name: JP-zipvpn.net-082, server: tuntro003.instconn.com, port: 443, type: trojan, password: 30077070-596e-48ea-9400-14c8ed07bd97, sni: login-staticjpc.jasmine-douyin.top, skip-cert-verify: false}
-  - {name: HK-zipvpn.net-083, server: 58.152.18.147, port: 443, type: trojan, password: 4843e94d205f3893f588255a591abe94, sni: www.nintendogames.net, skip-cert-verify: false}
-  - {name: zipvpn.net-088, server: new.ssdxz.cn, port: 443, type: trojan, password: !<str> 666, sni: 2new.ssdxz.cn, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 2new.ssdxz.cn}}}
+  - {name: ES-zipvpn.net-011, server: 109.234.211.66, port: 2087, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)", headers: {Host: store.timimi.dpdns.org}}}
+  - {name: US-zipvpn.net-012, server: 205.185.115.223, port: 19258, type: trojan, password: iWnFtzMiac, sni: cloudflare.com, skip-cert-verify: false}
+  - {name: US-zipvpn.net-019, server: d-4bed-b726-2c53a82e4925.664.qzz.io, port: 443, type: trojan, password: 0507fbcd-b983-43a7-8e1d-2c561960ad4f, sni: d-4bED-B726-2C53a82E4925.664.Qzz.iO, skip-cert-verify: false, network: ws, ws-opts: {path: /E2JXJM5geneWfr9noOhn, headers: {Host: d-4bED-B726-2C53a82E4925.664.Qzz.iO}}}
+  - {name: US-zipvpn.net-022, server: www.calmlunch.com, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}}
+  - {name: MY-zipvpn.net-030, server: 85.211.252.203, port: 16618, type: vmess, uuid: a436dc22-e2e4-4d0a-ae38-e86dcab039c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: b26eb8c48143c11db65be2203a3f2892.mobgslb.tbcache.com}}}
+  - {name: MY-zipvpn.net-031, server: 85.211.252.203, port: 16616, type: vmess, uuid: a436dc22-e2e4-4d0a-ae38-e86dcab039c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: b26eb8c48143c11db65be2203a3f2892.mobgslb.tbcache.com}}}
+  - {name: ES-zipvpn.net-032, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: store.timimi.dpdns.org}}}
+  - {name: MY-zipvpn.net-052, server: gtm1.ktmwan.net, port: 12901, type: vmess, uuid: 20370795-7412-479b-9529-a43e6a60677a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}}
+  - {name: US-zipvpn.net-099, server: mfa.gov.ua, port: 443, type: trojan, password: 87d1bfd4-574e-4c96-ad42-0426f27461ff, sni: _acme-challenge.2go.cloudns.be, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: _acme-challenge.2go.cloudns.be}}}
+  - {name: HK-zipvpn.net-123, server: 58.152.53.219, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,15 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -95,44 +100,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE-zipvpn.net-001
-      - CN-zipvpn.net-009
-      - MY-zipvpn.net-027
-      - MY-zipvpn.net-028
-      - DE-zipvpn.net-031
-      - ES-zipvpn.net-071
-      - JP-zipvpn.net-082
-      - HK-zipvpn.net-083
-      - zipvpn.net-088
+      - ES-zipvpn.net-011
+      - US-zipvpn.net-012
+      - US-zipvpn.net-019
+      - US-zipvpn.net-022
+      - MY-zipvpn.net-030
+      - MY-zipvpn.net-031
+      - ES-zipvpn.net-032
+      - MY-zipvpn.net-052
+      - US-zipvpn.net-099
+      - HK-zipvpn.net-123
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
