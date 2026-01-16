@@ -12,7 +12,7 @@
 [![हिन्दी](https://img.shields.io/badge/भाषा-हिन्दी-orange)](README_HI.md)
 [![فارسی](https://img.shields.io/badge/زبان-فارسی-purple)](README_FA.md)
 
-> 🕒 **Última atualização (horário de Brasília)：2026-01-16 11:58:49**  
+> 🕒 **Última atualização (horário de Brasília)：2026-01-16 14:04:06**  
 > 🔄 **Frequência de atualização automática: a cada 2 horas**
 
 ---
