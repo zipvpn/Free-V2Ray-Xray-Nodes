@@ -11,19 +11,19 @@ server=1.0.0.1
 server=8.8.8.8
 
 [policy]
-static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
-url-latency-benchmark=♻️ 自动选择, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300
-static=🎥 NETFLIX, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057
+static=🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png
+url-latency-benchmark=♻️ 自动选择, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Auto.png, check-interval=300
+static=🎥 NETFLIX, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083
 static=⛔️ 广告拦截, 🛑 全球拦截, 🎯 全球直连, 🔰 节点选择
 static=🚫 运营劫持, 🛑 全球拦截, 🎯 全球直连, 🔰 节点选择
-static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
+static=🌍 国外媒体, 🔰 节点选择, ♻️ 自动选择, 🎯 全球直连, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GlobalMedia.png
 static=🌏 国内媒体, 🎯 全球直连, 🔰 节点选择, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/DomesticMedia.png
-static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
-static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
-static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
+static=Ⓜ️ 微软服务, 🎯 全球直连, 🔰 节点选择, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Microsoft.png
+static=📲 电报信息, 🔰 节点选择, 🎯 全球直连, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Telegram.png
+static=🍎 苹果服务, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Apple.png
 static=🎯 全球直连, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Direct.png
 static=🛑 全球拦截, REJECT, DIRECT, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Advertising.png
-static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, FR-zipvpn.net-017, ES-zipvpn.net-025, CN-zipvpn.net-050, PH-zipvpn.net-056, PH-zipvpn.net-057, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
+static=🐟 漏网之鱼, 🔰 节点选择, 🎯 全球直连, ♻️ 自动选择, US-zipvpn.net-032, FR-zipvpn.net-038, CA-zipvpn.net-053, CN-zipvpn.net-075, HK-zipvpn.net-079, HK-zipvpn.net-080, PH-zipvpn.net-082, PH-zipvpn.net-083, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Final.png
 
 [server_remote]
 
@@ -50,11 +50,14 @@ http://127.0.0.1:25500/getruleset?type=2&url=c3VyZ2U6cnVsZXMvTm9ieURhL1N1cmdlL0R
 [rewrite_remote]
 
 [server_local]
-trojan = 35.180.16.16:22223, password=telegram-id-directvpn, over-tls=true, tls-host=trojan.burgerip.co.uk, fast-open=false, tls-verification=true, tag=FR-zipvpn.net-017
-trojan = 109.234.211.66:8443, password=trojan, over-tls=true, tls-host=store.timimi.dpdns.org, fast-open=false, tls-verification=true, tag=ES-zipvpn.net-025
-vmess = 183.236.51.36:59003, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, tag=CN-zipvpn.net-050
-trojan = cdnfire.xiaomispeed.com:21102, password=a00a621a-4af8-41b0-aa4a-d71f29408b62, over-tls=true, tls-host=cdnfire.xiaomispeed.com, fast-open=false, tls-verification=true, tag=PH-zipvpn.net-056
-trojan = cdnfire.xiaomispeed.com:21103, password=85e50aaf-18b3-4cbf-b6e0-c631ef029838, over-tls=true, tls-host=cdnfire.xiaomispeed.com, fast-open=false, tls-verification=true, tag=PH-zipvpn.net-057
+vmess = www.visa.cn:443, method=chacha20-ietf-poly1305, password=de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, obfs=wss, obfs-host=us.nbee.pp.ua, obfs-uri=/aa, fast-open=false, tls-verification=true, tag=US-zipvpn.net-032
+trojan = 35.180.16.16:22223, password=telegram-id-directvpn, over-tls=true, tls-host=trojan.burgerip.co.uk, fast-open=false, tls-verification=true, tag=FR-zipvpn.net-038
+trojan = tuntro006.instconn.com:443, password=30077070-596e-48ea-9400-14c8ed07bd97, over-tls=true, tls-host=torontorm1.686911.xyz, fast-open=false, tls-verification=true, tag=CA-zipvpn.net-053
+vmess = 183.236.51.36:59003, method=chacha20-ietf-poly1305, password=418048af-a293-4b99-9b0c-98ca3580dd24, aead=false, fast-open=false, tag=CN-zipvpn.net-075
+trojan = 58.152.53.219:443, password=BxceQaOe, over-tls=true, tls-host=%F0%9F%94%92%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B334%2B, fast-open=false, tls-verification=true, tag=HK-zipvpn.net-079
+trojan = 58.152.110.50:443, password=BxceQaOe, over-tls=true, tls-host=t.me%2Fripaojiedian, fast-open=false, tls-verification=true, tag=HK-zipvpn.net-080
+trojan = cdnfire.xiaomispeed.com:21102, password=a00a621a-4af8-41b0-aa4a-d71f29408b62, over-tls=true, tls-host=cdnfire.xiaomispeed.com, fast-open=false, tls-verification=true, tag=PH-zipvpn.net-082
+trojan = cdnfire.xiaomispeed.com:21103, password=85e50aaf-18b3-4cbf-b6e0-c631ef029838, over-tls=true, tls-host=cdnfire.xiaomispeed.com, fast-open=false, tls-verification=true, tag=PH-zipvpn.net-083
 
 [filter_local]
 GEOIP,CN,🎯 全球直连
